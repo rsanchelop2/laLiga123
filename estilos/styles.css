@@ -1,0 +1,49 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#logo {
+    width: 55vw;
+}
+
+#menu {
+    width: 100vw;
+    display: flex;
+    margin: 5vh 0 7vh 5vw;
+}
+
+#menu img {
+    height: 4vh;
+    margin-right: 30vw;
+    margin-top: 2.4vh;
+}
+
+#botones {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+button {
+    margin-bottom: 5vh;
+    width: 85vw;
+    border: none;
+    padding: 20px;
+    border-radius: 1vw;
+    transition: all 0.2s ease-in;
+}
+
+button:hover {
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    padding: 25px;
+}
+
+button:active {
+    color: black;
+    background-color: white;
+}
+
