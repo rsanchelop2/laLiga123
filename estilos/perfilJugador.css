@@ -1,0 +1,20 @@
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+div.logo {
+    display: flex;
+    text-align: center;
+    align-content: center;
+    width: 100vw
+}
+
+div.logo img#logo {
+    height: 100px;
+    text-align: center;
+}
