@@ -8,14 +8,28 @@ body {
   height: 100%;
 }
 
+<<<<<<< HEAD
 
+=======
+.main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border: 4px solid black;
+    width: 400px;
+    border-radius: 20px;
+    margin-top: 0px;
+    height: 100%;
+}
+>>>>>>> ad92c16fa6bdabaf772cb521c7a3e6863a7359d0
 
 .logo {
+    margin-top: 100px;
     margin-bottom: 80px;
 }
 
 #logo {
-    width: 55%;
+    width: 75%;
     margin-top: 20px;
 }
 
