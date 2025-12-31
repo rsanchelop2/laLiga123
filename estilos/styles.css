@@ -8,9 +8,7 @@ body {
   height: 100%;
 }
 
-<<<<<<< HEAD
 
-=======
 .main {
     display: flex;
     flex-direction: column;
@@ -21,7 +19,7 @@ body {
     margin-top: 0px;
     height: 100%;
 }
->>>>>>> ad92c16fa6bdabaf772cb521c7a3e6863a7359d0
+
 
 .logo {
     margin-top: 100px;
