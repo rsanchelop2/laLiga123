@@ -61,7 +61,6 @@ button:active {
     background-color: white;
 }
 
-<<<<<<< HEAD
 /*Estilos de la tabla de clasificación*/
 
 
@@ -96,10 +95,6 @@ div.main div#selector select {
 }
 
 /* Pagina login */
-=======
-
-/* Cabecera del nombre de la pagina */
->>>>>>> 0a8d65976877420212b3f83a0ba9298a342ea7fd
 
 div.main div#menu{
     display: flex;
@@ -115,9 +110,4 @@ div.main div#menu img#menu_icon {
 div.main div#menu h1 {
     width: 5vh;
     margin-left: 10vh;
-<<<<<<< HEAD
 }
-=======
-}
-
->>>>>>> 0a8d65976877420212b3f83a0ba9298a342ea7fd
