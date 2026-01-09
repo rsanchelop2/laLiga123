@@ -28,7 +28,7 @@ body {
 
 #logo {
     width: 75%;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #botones {
@@ -51,7 +51,7 @@ button {
 button:hover {
     color: white;
     background-color: black;
-    font-size: 35px;
+    font-size: 30px;
     padding: 25px;
 }
 
@@ -59,3 +59,23 @@ button:active {
     color: black;
     background-color: white;
 }
+
+
+/* Pagina login */
+
+div.main div#menu{
+    display: flex;
+    padding: 3vh;
+    align-items: center;
+}
+
+div.main div#menu img#menu_icon {
+    width: 5vh;
+    margin-top: 0px;
+}
+
+div.main div#menu h1 {
+    width: 5vh;
+    margin-left: 10vh;
+}
+
