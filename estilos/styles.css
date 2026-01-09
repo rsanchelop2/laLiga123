@@ -100,6 +100,7 @@ div.main div#menu{
     display: flex;
     padding: 3vh;
     align-items: center;
+    align-content: center;
 }
 
 div.main div#menu img#menu_icon {
@@ -109,5 +110,5 @@ div.main div#menu img#menu_icon {
 
 div.main div#menu h1 {
     width: 5vh;
-    margin-left: 10vh;
+    margin: auto;
 }
