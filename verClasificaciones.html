@@ -3,18 +3,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/styles.css">
     <title>Laliga123 - Visualizacion de clasificaciones</title>
 </head>
 <body>
      <div class="main">
-    <div>
-        <img id="logo" alt="logo_laliga" src="img/LaLiga_123.png">
-    </div>
+        <div>
+            <img id="logo" alt="logo_laliga" src="img/LaLiga_123.png">
+        </div>
 
-    <div id="menu">
-        <img alt="menu_icon" src="img/menu_icon.png">
-        <h1>Inicio</h1>
-    </div>
+        <div id="menu">
+            <img alt="menu_icon" src="img/menu_icon.png">
+            <h1>Tabla de clasificación</h1>
+        </div>
+        <div id="selector">
+            <select name="Jornada" id="Jornada">
+                <option value="Default">Selecciona jornada</option>
+                <option value="J1">Jornada 1</option>
+                <option value="J2">Jornada 2</option>
+                <option value="J3">Jornada 3</option>
+                <option value="J4">Jornada 4</option>
+                <option value="J5">Jornada 5</option>
+                <option value="J6">Jornada 6</option>
+                <option value="J7">Jornada 7</option>
+                <option value="J8">Jornada 8</option>
+                <option value="J9">Jornada 9</option>
+                <option value="J10">Jornada 10</option>
+                <option value="J11">Jornada 11</option>
+                <option value="J12">Jornada 12</option>
+            </select>
+        </div>
+
+        <div id="clasificacion">
+            <table>
+                <tr>
+                    <th>Posición</th>
+                    <th colspan="2">Nombre del equipo</th>
+                    <th>Puntos</th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td colspan="2">FC Barcelona</td>
+                    <td>81</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td colspan="2">Real Madrid</td>
+                    <td>79</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td colspan="2">Villarreal</td>
+                    <td>73</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td colspan="2">Betis</td>
+                    <td>70</td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td colspan="2">Valencia</td>
+                    <td>66</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td colspan="2">Sevilla</td>
+                    <td>59</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td colspan="2">Levante</td>
+                    <td>51</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td colspan="2">Elche</td>
+                    <td>45</td>
+                </tr>
+            </table>
+        </div>
     </div>
 </body>
 </html>
