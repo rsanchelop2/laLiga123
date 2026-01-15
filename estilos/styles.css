@@ -61,39 +61,6 @@ button:active {
     background-color: white;
 }
 
-/*Estilos de la tabla de clasificación*/
-
-
-/*Selector de jornadas*/
-div.main div#selector {
-    padding: 3vh;
-}
-
-div.main div#selector select {
-    height: 5vh;
-    width: 40vw;
-    margin: 2px;
-    border-radius: 1vh;
-    
-}
-
-/*Tabla de clasificaciones*/
-#clasificacion table {
-    border-collapse: collapse;
-    border: 2px solid black;
-    width: 100%;
-}
-
-#clasificacion th, #clasificacion td {
-    border-bottom: 2px solid black;
-    text-align: center;
-    padding: 12px;
-}
-
-#clasificacion th {
-    background-color: lightgray;
-}
-
 /* Pagina login */
 
 div.main div#menu{
@@ -111,4 +78,5 @@ div.main div#menu img#menu_icon {
 div.main div#menu h1 {
     width: 5vh;
     margin: auto;
+    text-align: center;
 }
