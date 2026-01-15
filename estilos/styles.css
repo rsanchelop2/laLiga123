@@ -23,8 +23,8 @@ body {
 
 
 .logo {
-    margin-top: 100px;
-    margin-bottom: 80px;
+    margin-top: 2vh;
+    margin-bottom: 5vh;
 }
 
 #logo {
@@ -41,7 +41,7 @@ body {
 
 button {
     font-size: 25px;
-    margin-bottom: 5vh;
+    margin-bottom: 3.5vh;
     width: 250px;
     border: none;
     padding: 20px;
@@ -63,20 +63,4 @@ button:active {
 
 /* Pagina login */
 
-div.main div#menu{
-    display: flex;
-    padding: 3vh;
-    align-items: center;
-    align-content: center;
-}
 
-div.main div#menu img#menu_icon {
-    width: 5vh;
-    margin-top: 0px;
-}
-
-div.main div#menu h1 {
-    width: 5vh;
-    margin: auto;
-    text-align: center;
-}
