@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/perfilEquipo.css">
     <title>Laliga123 - Perfil de equipo</title>
 </head>
 <body>
@@ -12,9 +14,22 @@
     </div>
 
     <div id="menu">
-        <img alt="menu_icon" src="img/menu_icon.png">
-        <h1>Inicio</h1>
+        <img id="menu_icon" alt="menu_icon" src="img/menu_icon.png">
+        <h1>Crear/Modificar Equipo</h1>
     </div>
+        <div id="img">
+            <img src="img/barcelona-fc.jpg" alt="">
+        </div>   
+        <div id="form">
+            <form action="" method="get">
+                <label for="name">Nombre del equipo:</label>
+                <input type="text" name="name" id="name">
+                <label for="sede">Sede del equipo:</label>
+                <input type="text" name="sede" id="sede">
+                <input type="submit" name="crear" id="crear" value="Crear Equipo">
+                <input type="submit" name="cancelar" id="cancelar" value="Cancelar">
+            </form>                
+        </div> 
     </div>
 </body>
 </html>
