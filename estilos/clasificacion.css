@@ -1,0 +1,38 @@
+/*Selector de jornadas*/
+div.main div#selector {
+    padding: 3vh;
+}
+
+div.main div#menu h1 {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+div.main div#selector select {
+    height: 5vh;
+    width: 40vw;
+    margin: 2px;
+    border-radius: 1vh;
+}
+
+/*Tabla de clasificaciones*/
+#clasificacion table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    width: 100%;
+}
+
+div#clasificacion {
+    padding: 3vw;
+}
+
+#clasificacion th, #clasificacion td {
+    border-bottom: 2px solid black;
+    text-align: center;
+    padding: 12px;
+}
+
+#clasificacion th {
+    background-color: lightgray;
+}

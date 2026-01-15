@@ -30,7 +30,7 @@ a {
 }
 
 footer{
-    background-color: grey;
+    background-color: rgba(128, 128, 128, 0.4);
     height: 100%;
     padding-top: 3vh;
     margin-top: 5vh;
