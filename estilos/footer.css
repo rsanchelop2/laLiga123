@@ -1,0 +1,30 @@
+footer{
+    background-color: rgba(128, 128, 128, 0.4);
+    height: 100%;
+    padding-top: 3vh;
+    margin-top: 5vh;
+}
+footer p {
+    font-size: 20px;
+    margin-bottom: 2vh;
+}
+.links ul  {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+.links li {
+    display: inline;
+    margin-right: 15px;
+}
+.links {
+    margin-bottom: 2vh;
+}
+.social-media{
+    margin-bottom: 2vh;
+}
+div.social-media a img {
+    width: 6vh;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
