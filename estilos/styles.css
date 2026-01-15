@@ -21,6 +21,11 @@ body {
     height: 100vh
 }
 
+.ruta {
+    font-size: 45px;
+    margin-top: -30px;
+}
+
 
 .logo {
     margin-top: 100px;
