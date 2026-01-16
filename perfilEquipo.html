@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/styles.css">
     <link rel="stylesheet" href="estilos/perfilEquipo.css">
+    <link rel="stylesheet" href="estilos/footer.css">
     <title>Laliga123 - Perfil de equipo</title>
-    <link rel="stylesheet" href="estilos/styles.css">
 </head>
 <body>
      <div class="main">
@@ -15,26 +15,45 @@
     </div>
 
     <div id="menu">
-<<<<<<< HEAD
         <p class="ruta">Inicio / Equipo</p>
-=======
-        <img id="menu_icon" alt="menu_icon" src="img/menu_icon.png">
-        <h1>Crear/Modificar Equipo</h1>
->>>>>>> dd3a11e99994dcab04c324ce30b8543667344138
+         
+        <h1>CREAR/MODIFICAR EQUIPO</h1>
     </div>
         <div id="img">
             <img src="img/barcelona-fc.jpg" alt="">
+            <form action="" method="get">
+                <input type="file" name="selImg" id="selImg">
+            </form>
         </div>   
         <div id="form">
             <form action="" method="get">
-                <label for="name">Nombre del equipo:</label>
-                <input type="text" name="name" id="name">
-                <label for="sede">Sede del equipo:</label>
-                <input type="text" name="sede" id="sede">
-                <input type="submit" name="crear" id="crear" value="Crear Equipo">
-                <input type="submit" name="cancelar" id="cancelar" value="Cancelar">
+                <label for="name">Nombre:</label>
+                <br>
+                <input type="text" name="name" id="name" required>
+                <br>
+                <label for="sede">Sede principal:</label>
+                <br>
+                <input type="text" name="sede" id="sede" required>
+                <input type="submit" name="crear" id="crear" value="CREAR EQUIPO">
+                <input type="submit" name="cancelar" id="cancelar" value="CANCELAR">
             </form>                
         </div> 
+
+        <footer>
+            <p>© 2026 LaLiga123. Todos los derechos reservados.</p>
+            <div class="links">
+                <ul>
+                    <li><a href="https://portal.mineco.gob.es/es-es/ministerio/Paginas/Politica_de_privacidad.aspx">Política de Privacidad</a></li>
+                    <li><a href="https://policies.google.com/terms?hl=es">Términos y Condiciones</a></li>
+                </ul>
+            </div>
+            
+            <div class="social-media">
+                <a href="https://www.facebook.com/groups/1385518685453793/?locale=es_ES"><img src="img/facebook.png" alt="Facebook" class="Facebook"></a>
+                <a href="https://x.com/LaLiga"><img src="img/Twitter-Photoroom.png" alt="Twitter" class="Twitter"></a>
+            </div>
+
+        </footer>
     </div>
 </body>
 </html>
