@@ -1,8 +1,10 @@
-footer{
+footer {
     background-color: rgba(128, 128, 128, 0.4);
-    height: 100%;
-    padding-top: 3vh;
-    margin-top: 5vh;
+    width: 100%; /* Asegura que cubra el ancho */
+    padding-top: 2vh;
+    margin-top: auto; /* ¡TRUCO CLAVE!: Empuja el footer al fondo en flexbox */
+    min-height: 15vh; /* Un poco menos de 20vh para evitar scroll innecesario */
+    flex-shrink: 0;   /* Evita que el footer se aplaste */
 }
 footer p {
     font-size: 20px;
