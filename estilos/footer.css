@@ -1,14 +1,23 @@
 footer {
+    display: flex;
+    flex-wrap: wrap;
     background-color: rgba(128, 128, 128, 0.4);
-    width: 100%; /* Asegura que cubra el ancho */
-    padding-top: 2vh;
-    margin-top: auto; /* ¡TRUCO CLAVE!: Empuja el footer al fondo en flexbox */
-    min-height: 15vh; /* Un poco menos de 20vh para evitar scroll innecesario */
-    flex-shrink: 0;   /* Evita que el footer se aplaste */
+    width: 100%; 
+    
+    padding-bottom: 0%;
+    margin-top: auto; 
+    
+    min-height: 15vh; 
+    justify-content: space-between; 
+    justify-content: baseline;
 }
 footer p {
-    font-size: 20px;
-    margin-bottom: 2vh;
+    font-size: 2vh;
+    margin-bottom: 0;
+    width: 100%;
+}
+footer div.links ul li a.textos{
+    font-size: 2vh;
 }
 .links ul  {
     list-style-type: none;
@@ -16,17 +25,24 @@ footer p {
     margin: 0;
 }
 .links li {
-    display: inline;
-    margin-right: 15px;
+    margin-left: 5vw;
+    padding-bottom: 0.5vh;
+    text-align: left;
+    width: fit-content;
+}
+div.links li {
+    font-size: 15;
 }
 .links {
     margin-bottom: 2vh;
 }
 .social-media{
-    margin-bottom: 2vh;
+    display: inline-block;
+    margin-right: 5vw;
 }
 div.social-media a img {
     width: 6vh;
     margin-left: 2vw;
     margin-right: 2vw;
 }
+
