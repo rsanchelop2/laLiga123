@@ -15,3 +15,7 @@ div.main div#menu h1 {
     margin: auto;
     text-align: center;
 }
+
+div#botones button.cerrar-sesion{
+    margin-bottom: 0%;
+}
