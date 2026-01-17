@@ -3,32 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/styles.css">
-    <link rel="stylesheet" href="estilos/login.css">
-    <link rel="stylesheet" href="estilos/footer.css">
-    <link rel="stylesheet" href="estilos/all.min.css">
-    <title>Login</title>
+    <title>Laliga123 - Gestion de partidos</title>
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <link rel="stylesheet" href="/estilos/footer.css">
+    <link rel="stylesheet" href="/estilos/all.min.css">
 </head>
 <body>
-    <div class="main">
+   <div class="main">
         <div class="logo">
-            <img id="logo" alt="logo_laliga" src="img/LaLiga_123.png">
+            <img id="logo" alt="logo_laliga" src="/img/LaLiga_123.png">
             <div class="ruta">
-                <p>Inicio / Login</p>
+                <p>Torneos / Crear torneo</p>
             </div>
         </div>
 
-        <div id="login">
-            <form action="inicio.html">
+        
+        <div id="botones">
             
-                <input type="text" id="usuario" name="usuario" placeholder="Usuario" required>
-                <input type="password" id="pass" name="pass" placeholder="Contraseña" required>
-                <br>
-                <br>
-                <input type="submit" name="enviar" id="enviar" value="Iniciar sesion"><br>
-                <a href="htmls/inicio.html">Continuar como invitado</a>
-            </form>
-            <br>
+            <button onclick="location.href='gestionTorneos.html'">Atrás</button>
         </div>
 
         <footer>
@@ -48,7 +40,8 @@
                     <i class="fa-brands fa-x-twitter"></i>
                 </a>
             </div>
-        </footer>
+        </footer> 
     </div>
+    
 </body>
 </html>

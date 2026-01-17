@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Laliga123 - Calendario de partidos</title>
-    <link rel="stylesheet" href="estilos/styles.css">
-    <link rel="stylesheet" href="estilos/footer.css">
-    <link rel="stylesheet" href="estilos/all.min.css">
+    <title>Laliga123 - Gestion de partidos</title>
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <link rel="stylesheet" href="/estilos/footer.css">
+    <link rel="stylesheet" href="/estilos/all.min.css">
 </head>
 <body>
-    <div class="main">
-        <div>
-            <img id="logo" alt="logo_laliga" src="img/LaLiga_123.png">
+   <div class="main">
+        <div class="logo">
+            <img id="logo" alt="logo_laliga" src="/img/LaLiga_123.png">
+            <div class="ruta">
+                <p>Equipos / Lista equipos</p>
+            </div>
         </div>
 
-        <div id="menu">
-            <p class="ruta">Inicio / Calendario</p>
+        
+        <div id="botones">
+            
+            <button onclick="location.href='gestionEquipos.html'">Atrás</button>
         </div>
+
         <footer>
             <p>© 2026 LaLiga123. Todos los derechos reservados.</p>
             <div class="links">
@@ -34,7 +40,8 @@
                     <i class="fa-brands fa-x-twitter"></i>
                 </a>
             </div>
-        </footer>
-    </div>  
+        </footer> 
+    </div>
+    
 </body>
 </html>

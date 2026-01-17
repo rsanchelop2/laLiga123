@@ -4,19 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LaLiga123 - Gestion de torneos</title>
-    <link rel="stylesheet" href="estilos/styles.css">
-    <link rel="stylesheet" href="estilos/footer.css">
-    <link rel="stylesheet" href="estilos/all.min.css">
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <link rel="stylesheet" href="/estilos/footer.css">
+    <link rel="stylesheet" href="/estilos/all.min.css">
 </head>
 <body>
     <div class="main">
-        <div>
-            <img id="logo" alt="logo_laliga" src="img/LaLiga_123.png">
+        <div class="logo">
+            <a href="inicio.html"><img id="logo" alt="logo_laliga" src="/img/LaLiga_123.png"></a>
+            <div class="ruta">
+                <p>Inicio / Torneos</p>
+            </div>
+        </div>
+        <div id="botones">
+            <button onclick="location.href='listaParticipantes.html'">Modificar participantes</button>
+            <button onclick="location.href='partidos/partidos.html'">Modificar puntuaciones</button>
+            <button onclick="location.href='perfilJugador.html'">Crear participantes</button>
+            <button onclick="location.href='crearTorneo.html'">Crear torneo</button>
+            <button onclick="location.href='/htmls/inicio.html'">Atrás</button>
         </div>
 
-        <div id="menu">
-            <p class="ruta">Inicio / Torneos</p>
-        </div>
         <footer>
             <p>© 2026 LaLiga123. Todos los derechos reservados.</p>
             <div class="links">

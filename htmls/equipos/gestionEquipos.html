@@ -3,32 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilos/styles.css">
-    <link rel="stylesheet" href="estilos/login.css">
-    <link rel="stylesheet" href="estilos/footer.css">
-    <link rel="stylesheet" href="estilos/all.min.css">
-    <title>Login</title>
+    <title>LaLiga123 - Gestion de torneos</title>
+    <link rel="stylesheet" href="/estilos/styles.css">
+    <link rel="stylesheet" href="/estilos/footer.css">
+    <link rel="stylesheet" href="/estilos/all.min.css">
 </head>
 <body>
     <div class="main">
         <div class="logo">
-            <img id="logo" alt="logo_laliga" src="img/LaLiga_123.png">
+            <a href="inicio.html"><img id="logo" alt="logo_laliga" src="/img/LaLiga_123.png"></a>
             <div class="ruta">
-                <p>Inicio / Login</p>
+                <p>Inicio / Equipos</p>
             </div>
         </div>
-
-        <div id="login">
-            <form action="inicio.html">
-            
-                <input type="text" id="usuario" name="usuario" placeholder="Usuario" required>
-                <input type="password" id="pass" name="pass" placeholder="Contraseña" required>
-                <br>
-                <br>
-                <input type="submit" name="enviar" id="enviar" value="Iniciar sesion"><br>
-                <a href="htmls/inicio.html">Continuar como invitado</a>
-            </form>
-            <br>
+        <div id="botones">
+            <button onclick="location.href='listaParticipantes.html'">esto hacerlo selector</button>
+            <button onclick="location.href='perfilEquipo.html'">Crear Equipos</button>
+            <button onclick="location.href='listaEquipos.html'">Modificar equipos</button>
+            <button onclick="location.href='/htmls/inicio.html'">Atrás</button>
         </div>
 
         <footer>

@@ -1,6 +1,7 @@
 /*Selector de jornadas*/
 div.main div#selector {
-    padding: 3vh;
+    padding: 0vh;
+    padding-top: 0%;
 }
 
 div.main div#menu h1 {
