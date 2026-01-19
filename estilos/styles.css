@@ -89,4 +89,33 @@ button:active {
     background-color: white;
 }
 
+.participante {
+    display: flex;
+}
 
+.participante i {
+    margin-left: 1vw;
+    margin-top: 1.7vh;
+}
+
+.participante p {
+    margin-right: 15vw;
+    margin-left: 3vw;
+}
+
+.participante a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#participantes, #mod_participantes {
+    margin-bottom: 4vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#tipo_participante {
+    border-radius: 10px;
+    padding: 3vw;
+    width: 52vw;
+}
