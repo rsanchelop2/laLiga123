@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/estilos/styles.css">
     <link rel="stylesheet" href="/estilos/footer.css">
     <link rel="stylesheet" href="/estilos/all.min.css">
+    <link rel="stylesheet" href="/estilos/modPuntuaciones.css">
 </head>
 <body>
    <div class="main">
@@ -17,7 +18,27 @@
             </div>
         </div>
 
-        
+        <div id="botones">
+            <form action="" method="post">
+                <div id="equipo1" class="equipos">
+                    <i id="foto" class="fa-solid fa-user fa-4x"></i>
+                    <p>Equipo 1</p>
+                    <p>3</p>
+                    <textarea name="newPoints" id="puntos">Nueva puntuacion</textarea>
+                </div>
+            <div id="equipo2" class="equipos">
+                <i id="foto" class="fa-solid fa-user fa-4x"></i>
+                    <p>Equipo 2</p>
+                    <p>2</p>
+                    <textarea name="newPoints" id="puntos">Nueva puntuacion</textarea>
+            </div>
+            
+            <button onclick="location.href=''">Guardar</button>
+            
+        </form>
+            
+            <button onclick="location.href='/htmls/inicio.html'">Atrás</button>
+        </div>
         
 
         <footer>
