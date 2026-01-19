@@ -11,15 +11,23 @@ select {
 
 
 div#equipo1{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
     border: 0.3vw solid black;
     padding: 2vw;
-    margin-bottom: 5vh;
+    margin-bottom: 3vh;
+}
+div#botones i {
+    width: 100%;
 }
 
 
+
 div#equipo2{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
     border: 0.3vw solid black;
     padding: 2vw;
     margin-bottom: 5vh;
