@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/estilos/styles.css">
     <link rel="stylesheet" href="/estilos/footer.css">
+    <link rel="stylesheet" href="/estilos/gestionPartidos.css">
     <link rel="stylesheet" href="/estilos/all.min.css">
     <title>LaLiga123 | Estadísticas</title>
 </head>
@@ -18,7 +19,13 @@
         </div>
 
         <div id="botones">
-            <button onclick="location.href=''">Hacerlo selector</button>
+            <select name="torneo" id="torneo" required>
+                <option value="">Elige un torneo</option>
+                <option value="torneo1">Torneo1</option>
+                <option value="torneo2">Torneo2</option>
+                <option value="torneo3">Torneo3</option>
+            </select>
+            <br>
             <button onclick="location.href='verClasificaciones.html'">Ver clasificación</button>
             <button onclick="location.href='verPartidos.html'">Ver partidos</button>
             <button onclick="location.href='/htmls/inicio.html'">Atrás</button>

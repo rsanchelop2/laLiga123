@@ -30,6 +30,10 @@ div#botones {
     font-size: 2vh; 
     text-align: center; }
 
+.btn-file label {
+    width: fit-content;
+}
+
 .btn-file:hover { 
     background-color: #ccc; 
 }
