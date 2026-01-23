@@ -114,8 +114,52 @@ button:active {
     flex-direction: column;
 }
 
-#tipo_participante {
+.select_participante {
     border-radius: 10px;
     padding: 3vw;
     width: 52vw;
+}
+
+#mod_participantes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3vh;
+}
+
+#introducir_nombre {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.label {
+    margin-bottom: 2vh;
+}
+
+#icono_imagen_usuario {
+    height: 10vh;
+    margin-left: -8vw;
+}
+
+.arrastrar_imagen {
+    display: flex;
+}
+
+#seleccionar_archivo {
+    display: none;
+}
+
+#label_imagen {
+    height: 10vh;
+    width: 32vw;
+    border: 2px dashed #999;
+    border-radius: 12px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    cursor: pointer;
+    background-color: #fafafa;
+    margin-left: -3vw;
 }
